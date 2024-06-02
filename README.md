@@ -14,14 +14,14 @@
   * tgbot - Телеграм бот, позволяющий общаться с сервером прямо из мессенджера
 
 ### Инструкция по запуску используя streamlit:
-1. ```git clone git@github.com:erdenirf/DeepHackAgents_2024_Pubmed.git``` - скачиваем репозиторий
+1. ```git@github.com:LISA-ITMO/AI-Med-Assistant.git``` - скачиваем репозиторий
 2. ```python -m venv venv``` - ставим виртуальную среду, затем активируем через ```venv/Scripts/activate``` для Linux либо ```venv/Scripts/Activate.ps1``` для Windows
 3. ```pip install -r requirements.txt``` - устанавливаем зависимости
 4. Вставьте свой API ключ в переменную .env в константу GIGACHAT_API_CREDENTIALS
 6. ```python -m streamlit run main.py``` - запускаем приложение
 
 ### Инструкция по запуску через tg бота:
-1. ```git clone git@github.com:erdenirf/DeepHackAgents_2024_Pubmed.git``` - скачиваем репозиторий
+1. ```git@github.com:LISA-ITMO/AI-Med-Assistant.git``` - скачиваем репозиторий
 2. ```python -m venv venv``` - ставим виртуальную среду, затем активируем через ```venv/Scripts/activate``` для Linux либо ```venv/Scripts/Activate.ps1``` для Windows
 3. ```pip install -r requirements.txt``` - устанавливаем зависимости для API
 4. ```pip install -r tgbot/requirements.txt``` - устанавливаем зависимости для бота
